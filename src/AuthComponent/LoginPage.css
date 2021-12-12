@@ -1,0 +1,35 @@
+.login-container {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-container .welcome-message {
+  font-size: 49px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.login-container .form-box {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  gap: 12px;
+}
+
+.login-container .form-box input {
+  height: 34px;
+  font-size: 18px;
+}
+
+.signup-link-box {
+  margin-top: 40px;
+}
+
+.signup-link-box .link {
+  color: cornflowerblue;
+  font-weight: bold;
+}

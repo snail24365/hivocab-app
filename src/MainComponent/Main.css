@@ -1,0 +1,29 @@
+.main-container {
+  display: flex;
+  height: 100%;
+}
+.page-container {
+  background: #E4E9F7;
+  height: 100vh;
+  left: 78px;
+  width: calc(100% - 78px);
+  transition: all 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.contents {
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  overflow: scroll;
+}
+
+.contents-inner-box {
+  flex: 1;
+  padding: 30px;
+}
